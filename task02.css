@@ -1,0 +1,146 @@
+*{
+    padding:0;
+    margin:0;
+    font:12px "microsoft yahei";
+}
+#header{
+    height: 60px;
+    background-color: #333333;
+}
+.header-logo {
+    width: 100px;
+    height: 60px;
+    float: left;
+    margin-left:40px;
+}
+.header-logo img{
+    height: 60px;
+}
+.header-nav{
+    width: 320px;
+    height: 60px;
+    float:right;
+}
+.header-nav ul{
+    width: 320px;
+    height: 60px;
+}
+.header-nav li{
+    width: 80px;
+    height: 60px;
+    font:12px/60px "simsun";
+    color:#fff;
+    float:right;
+}
+.header-nav li a{
+    text-decoration:none;
+    color:#fff;
+}
+.header-nav li a:visited{
+    color:#fff;
+    text-decoration:none;
+
+}
+.header-nav li a:hover{
+    text-decoration:none;
+    color:#3355D0;
+}
+.header-nav li a:active{
+    text-decoration:none;
+    color:red;
+}
+#passage-body{
+    background-color: #DEDEDE;
+   margin:0 auto;
+    padding:1px ;
+}
+ .passage{
+    width: 1182px;
+    border:1px solid #CDCDCD;
+    background-color: #fff;
+     margin:20px auto;
+     padding:20px;
+     box-shadow:3px 3px 3px #333;
+}
+ .passage h2{
+     font:600 20px "microsoft yahei";
+     padding:10px 0 10px;
+ }
+ .passage h3{
+     font:15px "microsoft yahei";
+     padding:10px 0 10px;
+     color:#505163;
+ }
+div  .passage-info{
+
+     font:12px "microsoft yahei";
+     color:#716D6E;
+ }
+  div .passage .article{
+     text-indent:30px;
+
+     font:15px/30px "microsoft yahei";
+ }
+  .passage .picture{
+      width: 130px;
+      height:130px;
+      border:1px solid #ccc;
+      text-align:center;
+      margin:10px;
+  }
+.passage ol{
+    padding:20px;
+}
+.passage table{
+    border:1px solid #ccc;
+    border-spacing:0;
+    width:100%;
+    height: 150px;
+
+}
+
+.passage table th{
+    text-align:left;
+    border:1px solid #ccc;
+    background-color: #323232;
+    color:#fff;
+    padding-left:5px;
+}
+.passage table td{
+    padding-left:5px;
+    border:1px solid #ccc;
+    font:700 12px "microsoft yahei";
+    color:#000112;
+}
+.passage table tfoot{
+    background-color: #ccc;
+}
+
+#sidebar h2{
+    height: 24px;
+    border-left:3px solid #CDCDCD;
+    font: 700 16px/24px "microsoft yahei";
+    padding-left:12px;
+}
+#sidebar form{
+    padding-left:270px;
+}
+
+#sidebar .inp{
+    display:block;
+    margin:20px;
+}
+#sidebar p{
+padding-left:107px;
+    margin-top:-10px;
+    color:#9D9D9B;
+
+}
+ .buttonset input{
+     width: 200px;
+     background-color:#3355D0;
+     color:#fff;
+    cursor:pointer;
+     box-shadow:1px 1px 1px #ccc;
+     border-radius:3px;
+}
